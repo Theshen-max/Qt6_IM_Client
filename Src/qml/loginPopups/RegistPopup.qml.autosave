@@ -1,0 +1,10 @@
+import QtQuick
+import QtQuick.Controls
+
+Popup {
+    id: registPopup
+    StackView {
+        anchors.fill: parent
+        
+    }
+}
