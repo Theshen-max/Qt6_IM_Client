@@ -51,6 +51,7 @@ qt_add_qml_module(appllfcchat
     SOURCES ChatMsg_Layer/sendratelimiter.h ChatMsg_Layer/sendratelimiter.cpp
     SOURCES Model_Layer/friendapplymodel.h Model_Layer/friendapplymodel.cpp
     SOURCES Logic_Layer/actiondebouncer.h Logic_Layer/actiondebouncer.cpp
+    RESOURCES README.md
 )
 
 target_include_directories(appllfcchat PRIVATE
